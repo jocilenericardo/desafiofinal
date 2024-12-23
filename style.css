@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e6f6; /* Cor pastel */
+    color: #333;
+    margin: 0;
+}
+
+header {
+    background-color: #dcbcdf; /* Cor pastel */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video {
+    background-color: #fff; /* Cor de fundo branco */
+    border: 1px solid #dcbcdf;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+}
+
+iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #dcbcdf; /* Cor pastel */
+}
